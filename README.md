@@ -8,3 +8,4 @@ MPG Linear Regression Summary:<br>
 ### Summary
 - The variable that are correlated to MPG are vehicle length and ground clearance.
 - The high R-Squared value and low p-value show that the slope is not zero.
+- The variable and intercept correlation strengths indicate that the MPG is predictable.
