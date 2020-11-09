@@ -1,8 +1,7 @@
-# Load Packages
-library(dplyr)
-
 # Deliverable 1: Linear Regression to Predict MPG
 
+# Load Packages
+library(dplyr)
 # Read in mpg data
 mpg_df <- read.csv("MechaCar_mpg.csv")
 # Perform Linear Regression on all columns
