@@ -15,5 +15,5 @@ total_summary:<br>
 lot_summary:<br>
 <img src=lot_summary.png></img><br>
 ### Conclusion
-While the overall variance does not exceed 100 PSI, Lot3's variance does so the manufacturing process does not meet specifications.
+While the overall variance does not exceed 100 PSI, the variance of Lot3 is over 170 so the manufacturing process does not meet specifications.
 ##  T-Tests on Suspension Coils
