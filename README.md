@@ -26,3 +26,6 @@ Lot2 T Test:<br>
 Lot3 T Test:<br>
 <img src=lot3_t_test.png></img><br>
 ### Summary
+The lots taken as a whole are not statistically different from the mean of the population.<br>
+Lot2 is the most statistically similar and Lot1 is next.<br>
+Lot3 is the least statistically similar.
