@@ -20,4 +20,17 @@ total_summary <- suspension_df %>%  summarize(Mean=mean(PSI), Median=median(PSI)
 # Get lot summary
 lot_summary <- suspension_df %>% group_by(Manufacturing_Lot) %>%  summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
 
+# Deliverable 3:T-Tests on Suspension Coils
+# Analysis of all lots
+t.test(suspension_df$PSI,  mu=mean(suspension_df$PSI))
+# Analysis of Lot1
+lot1_psi <- suspension_df %>% filter(Manufacturing_Lot == "Lot1")
+t.test(lot1_psi$PSI,  mu=mean(suspension_df$PSI))
+# Analysis of Lot2
+lot2_psi <- suspension_df %>% filter(Manufacturing_Lot == "Lot2")
+t.test(lot2_psi$PSI,  mu=mean(suspension_df$PSI))
+# Analysis of Lot2
+lot3_psi <- suspension_df %>% filter(Manufacturing_Lot == "Lot3")
+t.test(lot3_psi$PSI,  mu=mean(suspension_df$PSI))
+
 
